@@ -1,0 +1,132 @@
+*{
+    top: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    background-image: url('fansBackg.jpeg');
+}
+.indexSection{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 50px;
+}
+#indexBtn{
+    font-size: 2.3em;
+    margin-top: 100px;
+    background-color: #aa6c26;
+    color: white;
+}
+
+
+.gameBody{
+    background-image: url('backgroundIMG.jpeg');
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.dashboard{
+    width: 80%;
+    margin: auto;
+    margin-top: 3vh;
+    /* background-color: red; */
+}
+.allOptions h1{
+    color: black !important;
+    height: 50px;
+    font-size: 3em;
+    border: 1px white solid;
+    text-align: center;
+    margin: auto;
+    width: 5%;
+    margin-top: -35px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
+ul{
+    display: flex;
+    gap: 150px;
+    font-size: 2em;
+}
+li{
+    display: flex;
+    margin-top: 20px;
+    width: 40%; 
+    background-color: #2c0e8a; 
+    height: 60px;
+    border-radius: 40px;
+}
+span{
+    top: 250px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.gbagbos{
+    height: 50px;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 40px;
+}
+.questionDiv{
+    height: 80px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #2c0e8a;
+}
+.questionDiv h2{
+    padding-top: 30px;
+}
+.optionDiv1{
+    height: 80px;
+    width: 70%;
+    border: 1px blue solid;
+    color: white;
+    position: relative;
+    display: flex;
+    background-color: #010004;
+}
+.optionDiv2{
+    height: 80px;
+    width: 70%;
+    border: 1px blue solid;
+    color: white;
+    position: relative;
+    display: flex;
+    margin-top: -15px;
+    background-color: #010004;
+
+}
+.optionDiv1 div{
+    margin-top: 20px;
+    font-size: 1.8em;
+    width: 100%;
+    height: 80px;
+    padding-top: -80px;
+}
+.optionDiv2 div{
+    margin-top: 20px;
+    font-size: 1.8em;
+    width: 80%;
+}
+
+#scoreboard{
+    color:  black !important;
+}
+table{
+    font-size: 2em;
+}
+#totalEarn{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 350px;
+}
+#totalEarn button{
+    font-size: 1.2em;
+    border-radius: 40px;
+    background-color: #aa6c26;
+    color: white;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="greatBody()" id="newScreen" class="gameBody">
+    <section>
+        <div style=" display: flex; justify-content: space-between;">
+            <div style="width: 5%;">
+                <img src="50-50.PNG" id="x" alt="" onclick="removeTwo()">
+                <img src="ask-the-audience.PNG" id="y" alt="" onclick="askAround()">
+                <img src="phone-a-friend.PNG" id="z" alt="" onclick="phoneFriend()">
+            </div>
+            <div style="height: 60vh; width: 10%; border: 1px red solid;">
+                <table id="scoreAmount">
+                    <td>Amount</td>
+                </table>
+            </div>
+        </div>
+        <div class="dashboard">
+            <div class="questionDiv">
+                <h2 id="question"></h2>
+            </div>
+            <div class="allOptions">
+                <ul type="none" class="">
+                    <li class="option">
+                        <span>A:</span>
+                        <section class="gbagbos" id="optionA" onclick="calcScore(this)"></section>
+                    </li>
+                    <li class="option">
+                        <span>A:</span>
+                        <section class="gbagbos" id="optionB" onclick="calcScore(this)"></section>
+                    </li>
+                </ul>
+                <h1 id="stat"></h1>
+                <ul>
+                    <li class="option">
+                        <span>A:</span>
+                        <section class="gbagbos" id="optionC" onclick="calcScore(this)"></section>
+                    </li>
+                    <li class="option">
+                        <span>A:</span>
+                        <section class="gbagbos" id="optionD" onclick="calcScore(this)"></section>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
