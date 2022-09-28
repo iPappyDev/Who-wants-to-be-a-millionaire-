@@ -63,7 +63,7 @@ let next = document.querySelector('.next');
 let points = document.getElementById('amountGained');
 let gibagbos = document.querySelectorAll('.gbagbos');
 let i=0;
-let score = 5000;
+let score = 100;
 let wrongSong = new Audio('sound_wrong.mp3')
 let rightSong = new Audio('sound_right.mp3')
 var mySong = new Audio('sound_background.mp3')
@@ -89,7 +89,7 @@ function displayQuestion(){
     stat.innerHTML = (i+1);
     scoreAmount.innerHTML +=  `
         <tr>
-            <td> ${score}</td>
+            <td> $${score}</td>
         </tr>
         `
     mySong.play()
@@ -97,7 +97,7 @@ function displayQuestion(){
 
 function calcScore(f){
     if(f.innerHTML === questionBank[i].answer && score > questionBank.length){
-        score += 5000;
+        score += 100;
         document.getElementById(f.id).style.background = 'limegreen';
         rightSong.play()
         // scoreboard.innerHTML = points.innerHTML = score + '/' + questionBank.length;
