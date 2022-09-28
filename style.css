@@ -129,7 +129,7 @@ table{
         width: 0%;
     }
     table{
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .optionContainer{
         display: flex; 
@@ -150,7 +150,7 @@ table{
         width: 100%;
     }
     .questionDiv h2{
-        padding-top: 15px;
+        padding-top: 20px;
     }
 }
 @media all and (min-width:426px) and (max-width: 768px){
