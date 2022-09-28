@@ -15,19 +15,19 @@ let questionBank = [
         answer : 'A crane'
     },
     {
-        question : 'Why did the woman run around her bed at night?',
-        option : ['kills bacteria in the body','To catch up on her sleep','To catch warm','Horny'],
-        answer : 'To catch up on her sleep'
+        question: 'How many times can you subtract 10 from 100?',
+        option: ['Ten times','Once','Twice','Five times'],
+        answer: 'Once'
     },
     {
-        question : 'Which player scored the fastest hat-trick in the Premier League?',
-        option : ['Harry Kane', 'Sadio Mane', 'Michael Carrick', 'Scott Mc'],
-        answer : 'Sadio Mane'
+        question: 'How can a door be not a door?',
+        option: ['Locked','Sealed','Jammed','Closed'],
+        answer: 'Jammed'
     },
     {
-        question : 'If the vice president were to die, who is supposed to be president?',
-        option : ['President adviser', 'Senate president', 'The President', 'None of the above'],
-        answer : 'The President'
+        question: 'What kind of tree can you carry in your hand?',
+        option: ['Leave','A palm','Paper','None of the above'],
+        answer: 'A palm'
     },
     {
         question: 'What goes up as soon as the rain comes down?',
