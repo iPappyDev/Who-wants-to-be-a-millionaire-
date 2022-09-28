@@ -49,56 +49,6 @@ let questionBank = [
         option: ['Mopping Stick','Tree Root','A yardstick','None'],
         answer: 'A yardstick'
     },
-    {
-        question: 'If two’s company and three’s a crowd, what do four and five make?',
-        option: ['Family','Nine','House','Market'],
-        answer: 'Nine'
-    },
-    {
-        question: 'What travels the world while stuck in one spot?',
-        option: ['All of the above','Letter','A stamp','Signature'],
-        answer: 'A stamp'
-    },
-    {
-        question: 'Which room has no walls?',
-        option: ['Root','A Mushroom','Stem','All of the above'],
-        answer: 'A Mushroom'
-    },
-    {
-        question: 'What has four eyes but can’t see?',
-        option: ['Owl','Dart','Mississippi','Plate'],
-        answer: 'Mississippi'
-    },
-    {
-        question: 'Where is an ocean with no water?',
-        option: ['Road','Control','A map','All of the above'],
-        answer: 'A map'
-    },
-    {
-        question: 'How can a door be not a door?',
-        option: ['Locked','Sealed','Jammed','Closed'],
-        answer: 'When it’s a jar'
-    },
-    {
-        question: 'I have one head, one foot, and four legs. What am I?',
-        option: ['CHair','bed','Table','All of the above'],
-        answer: ''
-    },
-    {
-        question: 'What has one eye but can’t see anything at all?',
-        option: ['Broom','Thread','A needle','Mice'],
-        answer: 'A needle'
-    },
-    {
-        question: 'What kind of tree can you carry in your hand?',
-        option: ['Leave','A palm','Paper','None of the above'],
-        answer: 'A palm'
-    },
-    {
-        question: 'How many times can you subtract 10 from 100?',
-        option: ['Ten times','Once','Twice','Five times'],
-        answer: 'Once'
-    },
 ]
 let amount = document.getElementById('amountEarned')
 let question = document.getElementById('question');
