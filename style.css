@@ -104,6 +104,9 @@ table{
 #imgDiv{
     width: 5%;
 }
+#looserPage{
+    color: red !important;
+}
 @media all and (min-width:320px) and (max-width:425px){
     ul{
         flex-direction: column;

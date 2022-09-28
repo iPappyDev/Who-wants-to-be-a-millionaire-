@@ -124,7 +124,8 @@ let friendSong = new Audio('Phone-A-Friend_sound.mp3')
 let timeUpSong = new Audio('Time_Up_sound.mp3')
 
 const greatBody=()=>{
-    console.log("my people")
+    // console.log("my people")
+    audienceSong.play()
 }
 function displayQuestion(){
     for(let a = 0; a < gibagbos.length; a++){
