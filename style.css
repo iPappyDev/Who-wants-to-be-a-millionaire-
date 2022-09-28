@@ -17,6 +17,7 @@ body{
     margin-top: 100px;
     background-color: #aa6c26;
     color: white;
+    border-radius: 40px;
 }
 
 
@@ -80,42 +81,6 @@ span{
 .questionDiv h2{
     padding-top: 30px;
 }
-.optionDiv1{
-    height: 80px;
-    width: 70%;
-    border: 1px blue solid;
-    color: white;
-    position: relative;
-    display: flex;
-    background-color: #010004;
-}
-.optionDiv2{
-    height: 80px;
-    width: 70%;
-    border: 1px blue solid;
-    color: white;
-    position: relative;
-    display: flex;
-    margin-top: -15px;
-    background-color: #010004;
-
-}
-.optionDiv1 div{
-    margin-top: 20px;
-    font-size: 1.8em;
-    width: 100%;
-    height: 80px;
-    padding-top: -80px;
-}
-.optionDiv2 div{
-    margin-top: 20px;
-    font-size: 1.8em;
-    width: 80%;
-}
-
-#scoreboard{
-    color:  black !important;
-}
 table{
     font-size: 2em;
 }
@@ -125,8 +90,108 @@ table{
     margin-top: 350px;
 }
 #totalEarn button{
-    font-size: 1.2em;
+    font-size: 1em;
     border-radius: 40px;
     background-color: #aa6c26;
     color: white;
+}
+.tableContainer{
+    height: 60vh; width: 10%;
+}
+.optionContainer{
+    display: flex; justify-content: space-between;
+}
+#imgDiv{
+    width: 5%;
+}
+@media all and (min-width:320px) and (max-width:425px){
+    ul{
+        flex-direction: column;
+        gap: 0px;
+        font-size: 1.5em;
+    }
+    .dashboard{
+        width: 100%;
+    }
+    .allOptions h1{
+        margin: auto;
+        width: 20%;
+        margin-top: 10px;
+    }
+    li{
+        width: 80%; 
+    }
+    .tableContainer{
+        height: 40vh;
+        width: 0%;
+    }
+    table{
+        font-size: 1em;
+    }
+    .optionContainer{
+        display: flex; 
+        justify-content: space-around;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    #imgDiv{
+        width: 25%;
+        display: flex;
+        margin-top: 300px;
+    }
+    #totalEarn{
+        font-size: 2em;
+        margin-top: 250px;
+        width: 100%;
+    }
+    .questionDiv h2{
+        padding-top: 15px;
+    }
+}
+@media all and (min-width:426px) and (max-width: 768px){
+    ul{
+        flex-direction: column;
+        gap: 0px;
+        font-size: 1.5em;
+        margin-left:100px;
+    }
+    .dashboard{
+        width: 100%;
+    }
+    .allOptions h1{
+        margin: auto;
+        margin-top: 10px;
+    }
+    li{
+        width: 80%; 
+    }
+    .tableContainer{
+        height: 40vh;
+        width: 0%;
+    }
+    table{
+        font-size: 1.5em;
+    }
+    .optionContainer{
+        display: flex; 
+        justify-content: space-around;
+    }
+    img{
+        margin-left: 30px;
+    }
+    #imgDiv{
+        width: 30%;
+        display: flex;
+        margin-top: 150px;
+    }
+    #totalEarn{
+        font-size: 2.5em;
+        margin-top: 250px;
+        width: 100%;
+    }
+    .questionDiv h2{
+        padding-top: 20px;
+    }
 }
